@@ -1,13 +1,23 @@
-body {
-    font-size: large;
+body{
+    
+    background-color: cornflowerblue;
+}
+#header p{
+    color: blue;
+}
+#header h1{
+    color: blueviolet;
+}
+.second {
+    color: azure;
+    background: yellow;
+}
+.red{
+    background-color: yellow;
+    color: green;
 }
 
-h1 {
-    border: 1px solid darkred;
-    color: green;
-    text-align: center;
-}
-
-p {
-    color: green;
+/* grouping selector */
+h1,h2,h3{
+    background-color: chartreuse;
 }
